@@ -1,39 +1,16 @@
-# 📰 News-Room (ReactJS Edition)
+# React + Vite
 
-A modern, lightweight, and responsive news aggregator application built with **ReactJS**. It fetches real-time national and international headlines, allowing users to browse and filter news seamlessly across multiple categories.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- **Live News Feeds:** Fetches up-to-the-minute global and regional news articles.
-- **Dynamic Category Filtering:** Browse news by topics like Business, Technology, Sports, Entertainment, Health, and Science.
-- **Responsive Web Design:** Crafted for optimal viewing across mobile, tablet, and desktop screens.
-- **Clean Component Architecture:** Built using functional components, props, and state management.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tech Stack & Tools
+## React Compiler
 
-- **Library:** ReactJS (v18+)
-- **Routing:** React Router DOM 
-- **Styling:** CSS3  Bootstrap 
-- **API Integration:** Axios / Fetch API connected to [NewsAPI.org ]
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📸 Screenshots
+## Expanding the ESLint configuration
 
-![Uploading image.png…]()
-
-
-
-## 🔧 Getting Started & Installation
-
-To run this project locally on your machine, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/abhaypal0/News-Room.git](https://github.com/abhaypal0/News-Room.git)
-
-   cd News-Room
-
-   npm install
-
-   REACT_APP_NEWS_API_KEY=your_api_key_here
-
-   npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
